@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+     <meta charset='utf-8'>
+     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+     <title>Page music</title>
+     <meta name='viewport' content='width=device-width, initial-scale=1'>
+     <link rel='stylesheet' type='text/css' media='screen' href='css/music.css'>
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+     <nav>
+          <div class="fundo_usuario"> Bem vindo: <div class="usuario"> nome </div>
+          </div>
+          <a class="link" onclick="confi()" href="lista.html">Endereços</a>
+          <a class="link" id="cadastro_usuario" href="endereco.html">Cadastro de endereço</a>
+          <a class="link" onclick="confi()" href="index.html">homer</a>
+          <a class="link" onclick="confi()" href="login.html">login</a>
+          <a class="link" onclick="confi()" href="cadastro.html">Cadastro</a>
+          <a class="link" onclick="confi()" href="logout.html">Logout</a>
+          
+          
+     </nav>
+
+     <div class="corpo">
+          <div class="flex">
+               <div class="button">
+                    <img class="img_music"
+                         src="https://lh3.googleusercontent.com/UiFa4WQxtj_Zf7OLnda6Tr3eSrOH7dko2IKmzd5JNwTw7bIW5yh1jmFkALrFnFXPiJ8RgeQFwq5MaQM=w544-h544-l90-rj"
+                         class="img">
+                    <p class="nome">CHILL PHONK</p>
+                    <button style="display:none;" class="button_play">
+                         <svg id="button_img" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                              class="bi bi-play-circle-fill" viewBox="0 0 16 16">
+                              <path
+                                   d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814z" />
+                         </svg>
+                    </button>
+               </div>
+               <audio style="display:none;" class="audio" controls>
+                    <source src="viw/img/Musicas/GLORY - OGRYZIK - SLOWED REVERB -BILLY BRUTO X 150 SUPERS-.mp4"
+                         type="audio/ogg">
+                    <source src="horse.mp3" type="audio/mpeg">
+               </audio>
+          </div>
+
+
+          <div class="flex">
+               <div class="button">
+                    <img class="img_music"
+                         src="https://lh3.googleusercontent.com/xS2-v24euaEbL4g8W0iJIStFXY3v4e8qxoC8RnMAuvnQTc3zKvm1l8XVpJ0L-9SGNGUuDICN5kB8RFLCzw=w544-h544-l90-rj"
+                         class="img">
+                    <p class="nome">Skillet</p>
+                    <button style="display: none;" class="button_play">
+                         <svg id="button_img" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                              class="bi bi-play-circle-fill" viewBox="0 0 16 16">
+                              <path
+                                   d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814z" />
+                         </svg>
+                    </button>
+               </div>
+               <audio style="display:none;" class="audio" controls>
+                    <source src="viw/img/Musicas/Skillet - Whispers In The Dark -HQ-.mp4" type="audio/ogg">
+                    <source src="viw/img/Musicas/Skillet - Whispers In The Dark -HQ-.mp4" type="audio/mpeg">
+               </audio>
+          </div>
+
+
+          <div class="flex">
+               <div class="button">
+                    <img class="img_music"
+                         src="https://lh3.googleusercontent.com/NcBCPN1E4DVzkJ6qHmV-KXdxEBYNmvrGJ9OiwbLNDV-CwKVA9nmlFmwybpWohcbSfLl_BYcXzwhqzdyrEQ=w544-h544-l90-rj"
+                         class="img">
+                    <p class="nome">Slipknot - Duality</p>
+                    <button style="display: none;" class="button_play">
+                         <svg id="button_img" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                              class="bi bi-play-circle-fill" viewBox="0 0 16 16">
+                              <path
+                                   d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814z" />
+                         </svg>
+                    </button>
+               </div>
+               <audio style="display:none;" class="audio" controls>
+                    <source src="viw/img/Musicas/Slipknot - Duality -OFFICIAL VIDEO- -HD-.mp4" type="audio/ogg">
+                    <source src="horse.mp3" type="audio/mpeg">
+               </audio>
+
+          </div>
+
+
+          <div class="flex">
+               <div class="button">
+                    <img class="img_music"
+                         src="https://lh3.googleusercontent.com/NcBCPN1E4DVzkJ6qHmV-KXdxEBYNmvrGJ9OiwbLNDV-CwKVA9nmlFmwybpWohcbSfLl_BYcXzwhqzdyrEQ=w544-h544-l90-rj"
+                         class="img">
+                    <p class="nome">Slipknot - Psychosocial</p>
+                    <button style="display: none;" class="button_play">
+                         <svg id="button_img" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                              class="bi bi-play-circle-fill" viewBox="0 0 16 16">
+                              <path
+                                   d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814z" />
+                         </svg>
+                    </button>
+               </div>
+               <audio style="display:none;" class="audio" controls>
+                    <source src="viw/img/Musicas/Slipknot - Psychosocial -OFFICIAL VIDEO- -HD-.mp4" type="audio/ogg">
+                    <source src="horse.mp3" type="audio/mpeg">
+               </audio>
+          </div>
+
+          <div class="flex">
+               <div class="button">
+                    <img class="img_music"
+                         src="https://is1-ssl.mzstatic.com/image/thumb/Video122/v4/e8/71/87/e8718768-14a5-e873-71b2-f7d084ab054c/Jobd56aea25-0a04-409f-824c-7b3c6c378101-139971698-PreviewImage_preview_image_nonvideo_sdr-Time1669927527387.png/316x316bb.webp"
+                         class="img">
+                    <p class="nome">Disturbed - Indestructible</p>
+                    <button style="display: none;" class="button_play">
+                         <svg id="button_img" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                              class="bi bi-play-circle-fill" viewBox="0 0 16 16">
+                              <path
+                                   d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814z" />
+                         </svg>
+                    </button>
+               </div>
+               <audio style="display:none;" class="audio" controls>
+                    <source src="viw/img/Musicas/Indestructible.mp4" type="audio/mpeg">
+                    <source src="horse.mp3" type="audio/mpeg">
+               </audio>
+          </div>
+
+          <div class="flex">
+               <div class="button">
+                    <img class="img_music"
+                         src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmV6hTmX5oEycboK-RljXtDsTWHW3RmfGWx6lM3-cs2l21Bf3I8lpBsi-bLA8CrWHbtAY&usqp=CAU"
+                         class="img">
+                    <p class="nome">Five Finger Death Punch - Pick Up Behind You</p>
+                    <button style="display: none;" class="button_play">
+                         <svg id="button_img" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                              class="bi bi-play-circle-fill" viewBox="0 0 16 16">
+                              <path
+                                   d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814z" />
+                         </svg>
+                    </button>
+               </div>
+               <audio style="display:none;" class="audio" controls preload="auto">
+                    <source src="viw/img/Musicas/Pick Up Behind You.mp4" type="audio/mpeg">
+               </audio>
+          </div>
+          <div class="flex">
+               <div class="button">
+                    <img class="img_music"
+                         src="viw/img/Musicas/tchau e bensa.jpeg"
+                         class="img">
+                    <p class="nome">Five Finger Death Punch - Pick Up Behind You</p>
+                    <button style="display: none;" class="button_play">
+                         <svg id="button_img" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                              class="bi bi-play-circle-fill" viewBox="0 0 16 16">
+                              <path
+                                   d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814z" />
+                         </svg>
+                    </button>
+               </div>
+               <audio style="display:none;" class="audio" controls preload="auto">
+                    <source src="viw/img/Musicas/MC Pedrinho e MC Livinho - Tchau e Bença (Áudio Oficial).mp3" type="audio/mpeg">
+     
+               </audio>
+          </div>
+          <canvas style="display:none;" id="canvas"></canvas>
+          
+
+     </div>
+
+     <script src='js/music.js'></script>
+
+</body>
+
+</html>

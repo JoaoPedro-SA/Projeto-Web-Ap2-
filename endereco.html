@@ -1,0 +1,118 @@
+
+<!DOCTYPE html>
+<html></html>
+    <head>
+        <title></title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <script src="js/endereco.js"></script> <link rel="stylesheet" type="text/css" href="css/home.css" media="screen" />
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css" href="css/endereco.css" media="screen" />        
+    </head>
+    <body>
+        <header>
+        
+            <li>
+              <a href="music.html">Volta</a>
+              <a style="width: fit-content;" href="lista.html">Lista de endereco</a>
+                <a href="index.html">Logo</a>
+             
+                    <a href="music.html">Homer</a>
+            </li>
+            
+        </header>
+        <section class="form">
+            <h1 style="text-align: center;">Faça o seu cadastro de Endereço</h1>
+            <div>
+                <form>
+                    <label for="name"> Titulo </label>
+                    <input type="text" id="title" name="title" placeholder="Minha casa">
+
+                    <label for="lname">CEP *</label>
+                    <input type="text" id="cep" name="cep" placeholder="0373000">
+
+                    <label for="lname">Endereço *</label>
+                    <input type="text" id="address" name="address" placeholder="Rua Maria Paula Mota (Guarulhos)">
+
+                    <label for="lname">Número *</label>
+                    <input type="text" id="number" name="number" placeholder="1252">
+
+                    <label for="lname">Complemento</label>
+                    <input type="text" id="complement" name="complement" placeholder="Próx a...">                  
+                    <input type="button" value="Cadastrar" onclick="cadastroUsuario()">
+                </form>
+            </div>
+
+        </section>
+
+
+          
+          <!-- Modal LISTAGEM-->
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  ...
+                  CODIGO PARA LISTAGEM--
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+
+          
+          <!-- Modal ATUALIZANDO -->
+          <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    CODIGO PARA ATUALIZA
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+              </div>
+            </div>
+          </div>
+            
+
+          
+          <!-- Modal DELETANDO -->
+          <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    CODIGO PARA DELETAR
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+
+
+
+
+        <script src="js/funcionalidade.js"></script>
+        
+    </body>
+</html>

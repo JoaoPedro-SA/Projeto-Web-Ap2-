@@ -1,0 +1,102 @@
+body{
+    background-image:  url("Imagem\ do\ WhatsApp\ de\ 2024-10-07\ à\(s\)\ 21.22.22_ba096260.jpg");
+    color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    height: 100vh;
+    min-height: fit-content;
+    margin: 0%;
+}
+nav {
+    background-color: rgb(27, 27, 27);
+    color: white;
+    height: 4rem;
+    align-items: center;
+    justify-content: right;
+    display: flex;
+    gap: 30px;
+    padding-right: 2%;
+    border-bottom: 2px solid white;
+
+}
+.button {
+    width: 60%;
+    background-color: black;
+    font-size: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    color: white;
+    transition: 1s;
+    height: 100px;
+}
+
+.button:hover {
+    transition: 1s;
+    font-size: 25px;
+
+}
+
+.link {
+    color: white;
+    outline: 0;
+    border: 0;
+    text-decoration: none;
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 20px;
+    width: 100px;
+    text-align: center;
+    font-size: 17px;
+}
+
+.link:hover {
+    color: red;
+}
+
+.form {
+    display: grid;
+    grid-template-columns: 1fr ;
+    margin: 0 auto;
+    max-width: 500px;        
+    grid-gap: 20px;  
+        
+}
+
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;    
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    
+}
+  
+input[type=button] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 15px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    border-radius: 1rem;
+}
+li {
+    background-color: rgb(27, 27, 27);
+    color: white;
+    height: 4rem;
+    align-items: center;
+    justify-content: right;
+    display: flex;
+    gap: 30px;
+    padding-right: 0;
+    border-bottom: 2px solid white;
+    
+
+}
+
+a:hover{
+    color: red;
+}

@@ -1,0 +1,21 @@
+{
+  "access_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vZ28td2FzaC1hcGkub25yZW5kZXIuY29tL2FwaS9sb2dpbiIsImlhdCI6MTcyNTg1NzEzMywibmJmIjoxNzI1ODU3MTMzLCJqdGkiOiJrOXRxeXRnbjBUUjZyckZkIiwic3ViIjoiNjE3IiwicHJ2IjoiMjNiZDVjODk0OWY2MDBhZGIzOWU3MDFjNDAwODcyZGI3YTU5NzZmNyJ9.-Y1zHOxgGBqIIbES_FrVyfqj2os-5P3dnWSfiVdLqh4",
+  "token_type": "bearer",
+  "expires_in": null,
+  "user": {
+    "id": 617,
+    "name": "Pedro",
+    "is_active": true,
+    "is_socialite": false,
+    "terms": true,
+    "cpf_cnpj": "35170504071",
+    "email": "mowida2487@obisims.com",
+    "user_type_id": 1,
+    "birthday": "1981-02-02",
+    "phone": null,
+    "avatar": null,
+    "attachment": null,
+    "document_status": null,
+    "created_at": "2024-09-09T04:37:48.000000Z"
+  }
+}
